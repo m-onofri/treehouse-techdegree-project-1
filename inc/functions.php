@@ -1,7 +1,4 @@
 <?php
-// PHP - Random Quote Generator
-// Create the Multidimensional array of quote elements and name it quotes
-// Each inner array element should be an associative array
 
 $quotes = [
     [
@@ -69,28 +66,28 @@ $quotes = [
     ]
 ];
 
-// Create the getRandomQuote function and name it getRandomQuote
-
+// Return a random element from $array
 function getRandomQuote($array) {
     $randomIndex = rand(0, (count($array) - 1));
     return $array[$randomIndex];
 }
 
-// Create the printQuote function and name it printQuote
-function printQuote($quote) {
+// Print the completed HTML string of the selected quote  
+function printQuote($array) {
+    $quote = getRandomQuote($array);
     $quoteBox = "<div id='quote-box'>";
     $quoteBox .= "<p class='quote'>{$quote["quote"]}</p>";
     $quoteBox .= "<p class='source'>{$quote["source"]}";
     if (isset($quote["citation"])) {
         $quoteBox .= "<span class='citation'>{$quote["citation"]}</span>";
     }
-    if (isset($quote["episode"])) {
-        $quoteBox .= "<span class='episode'>{$quote["episode"]}</span></p>";
-    }
     if (isset($quote["year"])) {
-        $quoteBox .= "<span class='year'>{$quote["year"]}</span></p>";
+        $quoteBox .= "<span class='year'>{$quote["year"]}</span>";
     }
-    $quoteBox .= "</div>";
+    if (isset($quote["medium"])) {
+        $quoteBox .= "<span class='medium'>{$quote["medium"]}</span>";
+    }
+    $quoteBox .= "</p></div>";
 
-    return $quoteBox;
+    echo $quoteBox;
 }
