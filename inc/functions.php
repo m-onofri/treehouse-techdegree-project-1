@@ -5,58 +5,58 @@
 
 $quotes = [
     [
-        "quote" => "The release of emotions, Mr. Spock, is what keeps us healthy-- emotionally healthy, that is.",
-        "source" => "Dr. Leonard “Bones” McCoy",
-        "citation" => "Star Trek - The Original Series",
-        "year" => NULL,
-        "episode" => "Plato's Stepchildren"
+        "quote" => "All we have to decide is what to do with the time that is given us.",
+        "source" => "J.R.R. Tolkein",
+        "citation" => "The Fellowship of the Ring",
+        "year" => "1954",
+        "medium" => "Novel"
     ],
     [
-        "quote" => "Life and death are seldom logical.",
-        "source" => "Dr. Leonard “Bones” McCoy",
-        "citation" => "Star Trek - The Original Series",
-        "year" => NULL,
-        "episode" => "The Galileo Seven"
+        "quote" => "Real courage is when you know you’re licked before you begin, but you begin anyway and see it through no matter what.",
+        "source" => "Harper Lee",
+        "citation" => "To Kill a Mockingbird",
+        "year" => "1960",
+        "medium" => "Novel"
     ],
     [
         "quote" => "Live long and prosper.",
         "source" => "Mr. Spock",
         "citation" => "Star Trek - The Original Series",
         "year" => NULL,
-        "episode" => NULL
+        "medium" => "TV series"
     ],
     [
-        "quote" => "It is curious how often you humans manage to obtain that which you do not want.",
-        "source" => "Mr. Spock",
-        "citation" => "Star Trek - The Original Series",
-        "year" => NULL,
-        "episode" => "Errand of Mercy"
+        "quote" => "The Answer to the ultimate question of Life, The Universe and Everything is…42!”",
+        "source" => "Douglas Adams",
+        "citation" => "The Hitchhiker’s Guide to the Galaxy",
+        "year" => "1979",
+        "medium" => "Novel"
     ],
     [
-        "quote" => "Things are only impossible until they're not.",
-        "source" => "Captain Jean-Luc Picard",
-        "citation" => "Star Trek - The Next Generation",
-        "year" => NULL,
-        "episode" => "When the Bough Breaks"
+        "quote" => "Mama always said life was like a box of chocolates. You never know what you're gonna get.",
+        "source" => "Forrest Gump",
+        "citation" => "Forrest Gump",
+        "year" => "1994",
+        "medium" => "Movie"
     ],
     [
-        "quote" => "It is possible to commit no mistakes and still lose. That is not a weakness; that is life.",
-        "source" => "Captain Jean-Luc Picard",
-        "citation" => "Star Trek - The Next Generation",
-        "year" => NULL,
-        "episode" => "Peak Performance"
+        "quote" => "To be a rock and not to roll.",
+        "source" => "Led Zeppelin",
+        "citation" => "Stairway to Heaven",
+        "year" => "1971",
+        "medium" => "Song"
     ],
     [
-        "quote" => "Intuition - however illogical, Mr. Spock - is recognized as a command prerogative.",
-        "source" => "Captain James Kirk",
-        "citation" => "Star Trek - The Original Series",
-        "year" => NULL,
-        "episode" => "Obsession"
+        "quote" => "The love for all living creatures is the most noble attribute of man.",
+        "source" => "Charles Darwin",
+        "citation" => NULL,
+        "year" => "1871",
+        "medium" => NULL
     ],
     [
-        "quote" => "Beam me up, Scotty!",
-        "source" => "Captain James Kirk",
-        "citation" => "Star Trek - The Original Series",
+        "quote" => "What greater gift than the love of a cat.",
+        "source" => "Charles Dickens",
+        "citation" => NULL,
         "year" => NULL,
         "episode" => NULL
     ],
