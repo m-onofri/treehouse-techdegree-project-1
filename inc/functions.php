@@ -61,18 +61,11 @@ $quotes = [
         "episode" => NULL
     ],
     [
-        "quote" => "If you had an off switch, Doctor, would you not keep it secret?",
-        "source" => "Data",
-        "citation" => "Star Trek - The Next Generation",
-        "year" => NULL,
-        "episode" => "Datalore"
-    ],
-    [
-        "quote" => "I am superior, sir, in many ways, but I would gladly give it up to be human.",
-        "source" => "Data",
-        "citation" => "Star Trek - The Next Generation",
-        "year" => NULL,
-        "episode" => "Encounter at Farpoint"
+        "quote" => "Do. Or do not. There is no try.",
+        "source" => "Yoda",
+        "citation" => "Star wars Episode V: The Empire Strikes Back",
+        "year" => "1980",
+        "medium" => "Movie"
     ]
 ];
 
@@ -101,27 +94,3 @@ function printQuote($quote) {
 
     return $quoteBox;
 }
-
-function defineBgColor($quote) {
-    switch ($quote["source"]) {
-        case 'Dr. Leonard “Bones” McCoy':
-        case 'Mr. Spock':
-            return "color2";
-            break;
-        case 'Captain Jean-Luc Picard':
-            return "color3";
-            break;
-        case 'Captain James Kirk':
-            return "color4";
-            break;
-        case 'Data':
-            return "color1";
-            break;
-        default:
-            return "";
-            break;
-    }
-}
-
-?>
-

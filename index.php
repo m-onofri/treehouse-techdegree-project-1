@@ -1,5 +1,6 @@
 <?php 
   require 'inc/functions.php';
+  $colorNum = rand(1, 5);
   $quote = getRandomQuote($quotes);
 ?>
 
@@ -12,7 +13,7 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
-<body class="<?php echo defineBgColor($quote) ?>">
+<body class="<?php echo "color{$colorNum}"; ?>">
   <div class="container">
     <?php echo printQuote($quote); ?>
     <button id="loadQuote" onclick="window.location.reload(true)" >Show another quote</button>
